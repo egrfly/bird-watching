@@ -1,0 +1,42 @@
+@import "../styles/theme";
+
+.Sighting {
+  width: 16rem;
+  padding: 1rem;
+  border: 0.125rem solid $primary;
+  text-align: start;
+
+  h2 {
+    margin: 0;
+  }
+
+  h3 {
+    margin-top: 0;
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.Sightings {
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+    color: $primary;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
